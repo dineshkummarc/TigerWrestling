@@ -1,0 +1,21 @@
+﻿<%@ Master Language="C#" CodeBehind="Site.master.cs" Inherits="Web.DynamicData.Site" EnableViewState="true" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<title>Dynamic Data</title>
+	<style type="text/css" media="screen">
+		@import '<%= Page.ResolveUrl("~/Admin/Content/Site.css") %>';
+	</style>
+</head>
+<body class="template">
+	<form id="form1" runat="server">
+
+		<div>
+			<asp:ScriptManager ID="ScriptManager1" runat="server" EnablePartialRendering="true" />
+			<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+		</div>
+	</form>
+</body>
+</html>

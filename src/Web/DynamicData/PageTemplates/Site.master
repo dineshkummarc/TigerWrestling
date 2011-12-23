@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Admin/Content/Site.master" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Web.DynamicData.PageTemplates.Site" %>
+<asp:Content ID="Head" ContentPlaceHolderID="Head" runat="server">
+			<asp:ContentPlaceHolder ID="Head" runat="server" />
+</asp:Content>
+
+<asp:Content ID="ContentPlaceHolder0" ContentPlaceHolderID="ContentPlaceHolder0" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePartialRendering="true" />
+			
+</asp:Content>
+
+<asp:Content ID="ContentPlaceHolder1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
+			<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+
+</asp:Content>
+
+<asp:Content ID="Javascript" ContentPlaceHolderID="Javascript" runat="server">
+
+			<asp:ContentPlaceHolder ID="Javascript" runat="server" />
+</asp:Content>
+
+<asp:Content ID="Javascript2" ContentPlaceHolderID="Javascript2" runat="server">
+
+			<asp:ContentPlaceHolder ID="Javascript2" runat="server" />
+</asp:Content>

@@ -1,0 +1,10 @@
+bin/*
+obj/*
+AppSettings.config
+*.suo
+Web/Data/Migration/Migration*.template
+**/**/*.orig
+**/**/**/*.orig
+*.Publish.xml
+_ReSharper**/**
+**ReSharper**

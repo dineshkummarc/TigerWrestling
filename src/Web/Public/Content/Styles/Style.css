@@ -1,0 +1,67 @@
+ html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,ime, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}	
+body, html {
+		margin:0;
+		padding:0;
+		color:#fff;
+		background:#000;
+	} 
+	#wrap {
+		width:900px;
+		margin:0 auto; 
+	}
+	#header { }
+	h1 {
+	    margin:0;
+		background-image:url(../Images/logoname.jpg) ;
+		width:575px;
+		height:231px;
+    }
+	#nav {
+		background:#250;
+		height:35px;
+	}
+	
+	#nav li {
+		display:inline;
+		margin:0; 
+	}
+	#nav li a{ 
+		padding:5px;
+	}
+	#nav li a:hover 
+	{
+		background:#545;
+	}
+	#main {
+		float:left;
+		width:575px; 
+		background:#033;
+	}
+	h2 {
+		margin:0 0 1em;
+	}
+	#sidebar {
+		float:right;
+		width:305px;
+		padding:10px;
+		background:#080;
+	}
+	#footer {
+		clear:both;
+		padding:5px 10px;
+		background:#229;
+	}
+	#footer p {
+		margin:0;
+    }
+	* html #footer {
+		height:1px;
+	}
+	

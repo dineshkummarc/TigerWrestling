@@ -1,0 +1,265 @@
+﻿/*
+ * Reset
+ */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}ol,ul{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;}body{font:13px/1.231 arial,helvetica,clean,sans-serif;font-size:small;}select,input,button,textarea,button{font:99% arial,helvetica,clean,sans-serif; resize:none;}table{font-size:inherit;}pre,code,kbd,samp,tt{font-family:monospace;font-size:108%;line-height:100%;}a:focus,a:hover,a:active{outline:none}sup{font-size:smaller;vertical-align:baseline;position:relative;bottom:0.33em;}.left{float:left;}.right{float:right;}.clear{clear:both;}.none{display:none;}.hidden{visibility:hidden;}
+
+ 
+/* ======== Start Css ====================*/
+* {
+    margin: 0;
+    padding: 0;
+}
+header, footer, section, aside, nav, article {
+    display: block;
+}
+body {
+    background: none repeat scroll 0 0 #000000;
+    color: #666666;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+#wrapper { 
+    margin: 5px auto;
+    width: 940px;
+}
+
+#main {
+    background: repeat-y scroll 0 0 #FFFFFF;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 10px;
+    width: 940px;
+}
+
+#sidebar {
+    float: left;
+    padding-left: 20px;
+    width: 220px;
+}
+
+h2, h3, h4, h5, h6 {
+    clear: both;
+    color: #333333;
+    font-weight: bold;
+}
+
+a:link, a:visited {
+    color: #CC0000;
+}
+a:hover, a:active {
+    color: #BBBBBB;
+}
+
+p {
+    margin-bottom: 15px;
+}
+li {
+    padding-left: 5px;
+}
+
+nav {
+    background: none repeat scroll 0 0 #333333;
+    height: 50px;
+    margin: 0 auto;
+    width: 940px;
+}
+nav .menu {
+    font-size: 16px;
+    font-weight: bold; 
+}
+nav .menu ul {
+    line-height: normal;
+    list-style: none outside none;
+    margin: 0;
+    /*padding: 17px 0 0 20px;*/
+}
+nav .menu li {
+    display: block;
+    float: left; 
+}
+nav .menu a {
+    color: #CC0000;
+    display: block;
+    float: left;
+    margin-right: 5px;
+    padding: 15px;
+    text-decoration: none;
+}
+nav .menu a:hover 
+{
+    background-color:#C00;
+    color:#000;
+}
+
+header {
+    background: no-repeat scroll left top #FFFFFF;
+    height: 200px;
+    margin: 0 auto;
+    width: 940px;
+}
+header h1, header h2 {
+    line-height: normal;
+    margin: 0;
+    padding: 0 0 0 30px;
+}
+header h1 {
+    float: left;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 60px;
+    font-weight: normal;
+    padding-top: 20px;
+}
+header h1 a:link, header h1 a:visited {
+    color: #CC0000;
+    text-decoration: none; 
+}
+header h2 {
+    color: #DDDDDD;
+    font-size: 14px;
+    font-style: italic;
+    padding: 20px 0 0 30px;
+}
+
+article img {
+    border: medium none;
+    box-shadow: 3px 3px 7px #777777;
+}
+
+#content {
+    float: right;
+    margin-right: 30px;
+    width: 640px;
+}
+#content p, ul, ol, hr {
+    margin-bottom: 24px;
+}
+#content ul ul, ol ol, ul ol, ol ul {
+    margin-bottom: 0;
+}
+#content h1, h2, h3, h4, h5, h6 {
+    color: #333333;
+    line-height: 1.5em;
+    margin: 0 0 20px;
+}
+
+.alignleft, img.alignleft {
+    display: inline;
+    float: left;
+    margin-right: 10px;
+}
+.alignright, img.alignright {
+    display: inline;
+    float: right;
+    margin-left: 10px;
+}
+.aligncenter, img.aligncenter {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+aside h3 {
+    font-size: 18px;
+}
+aside ul {
+    list-style: none outside none;
+    margin-bottom: 20px;
+    margin-top: -15px;
+}
+
+footer {
+    clear: both;
+    margin: 0 auto;
+    width: 940px;
+}
+#footer-area {
+    background: none repeat scroll 0 0 #333333;
+    color: #FFFFFF;
+    font-size: 90%;
+    overflow: hidden;
+    padding: 18px 0;
+}
+.footer-segment {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 190px;
+}
+footer aside h4 {
+    color: #DDDDDD;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+footer a:link, footer a:visited {
+    color: #CC0000;
+}
+footer p {
+    margin-top: -15px;
+}
+/* ======== END Css ====================*/
+
+
+
+
+/* ======== BEGIN  Common ====================*/
+.link{ color: #034af3; text-decoration: underline;} 
+.hand{ cursor:pointer;} 
+.left{ float:left;} 
+.right{ float:right;} 
+.clear{ clear:both;} 
+.hidden{ display:none;} 
+.highlight{ background-color:Yellow;}
+body.template tr.lastPreview{ background-color:#dfd;} 
+.inline{ display:inline;} 
+.box{  border:1px dotted grey; padding:5px;  margin:5px;}
+.requiredIndicator { color: #EE4000; }
+/* ======== END  Common ====================*/
+
+/* ======== Begin Content ====================*/
+.contentEditButtons {
+    background-color: #88FF88;
+    left: 20px;
+    position: fixed;
+    top: 0;
+    width: 35px;
+}
+.content {
+    position: relative;
+}
+.contentEditable {
+    border: 1px dotted #EEEEEE;
+}
+.contentEdit {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    display: none;
+    float: left;
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+}
+.contentSave {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    display: none;
+    float: left;
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+}
+.approvedContent {
+    border: 1px dashed blue;
+}
+.previewContent {
+    border: 1px dashed orange;
+} 
+.myNicPanel{width: 1225px; position:fixed; top:0px; left:25px; } 
+.editButton{width: 25px; position:fixed; top:0px; right:25px;  background-color:#8f8; }  
+.contentSpan{width: 1225px;} 
+/* ======== END Content ====================*/
+
