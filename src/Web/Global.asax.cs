@@ -39,6 +39,8 @@ namespace Web
 			// Update tasks are performed by using separate pages. To enable this mode, uncomment the following 
 			// route definition, and comment out the route definitions in the combined-page mode section that follows.
             
+
+
             routes.Add(new DynamicDataRoute("DynamicData/{table}/{action}.aspx")  
 			{
 				Constraints = new RouteValueDictionary(new { action = "List|Details|Edit|Insert" }),
