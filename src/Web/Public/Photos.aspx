@@ -11,7 +11,22 @@
 <section id="contentPhoto" class="content">
  
 
-<embed type="application/x-shockwave-flash" style="display: block; margin-left: auto; margin-right: auto;" src="https://picasaweb.google.com/s/c/bin/slideshow.swf" width="600" height="400" flashvars="host=picasaweb.google.com&captions=1&hl=en_US&feat=flashalbum&RGB=0x000000&feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2Fnmacellaio%2Falbumid%2F5659457926247971137%3Falt%3Drss%26kind%3Dphoto%26authkey%3DGv1sRgCPyE5f6hi_i1fA%26hl%3Den_US" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+
+
+<div align="center"> <br>
+<object width="425" height="350">
+<param value="http://www.youtube.com/v/ouzFhK3Zkyw" name="movie">  <embed width="425" height="350" type="application/x-shockwave-flash" src="http://www.youtube.com/v/ouzFhK3Zkyw">  </object>  <br>
+<br>
+<br>
+<br>
+12/09/2007 - Maddog open - Schaumburg, IL <br>
+WW Tiger Wrestling Club placed 6th out of 19 teams<br>
+<br>
+<object width="425" height="350">
+<param name="movie" value="http://www.youtube.com/v/Uk3WJpfkOjE"><embed width="425" height="350" src="http://www.youtube.com/v/Uk3WJpfkOjE" type="application/x-shockwave-flash"></object></div>
+
+
+
 
 </section>
 
